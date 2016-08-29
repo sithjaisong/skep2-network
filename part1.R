@@ -44,12 +44,18 @@ for(i in 1:length(varnames)) {
 #all.histo2 <- grid.arrange(out[[16]],  out[[17]],  out[[18]],  out[[19]], out[[20]], out[[21]], out[[22]], out[[23]], out[[24]], out[[25]], out[[26]], out[[27]], out[[28]], out[[29]],  nrow = 3, ncol = 5)
 
 
-all.histo1 <- grid.arrange(out[[1]], out[[2]], out[[3]],out[[4]],  out[[5]],  out[[6]], out[[7]], out[[8]], out[[9]], out[[10]],  out[[11]],  out[[12]], out[[13]],  out[[14]], out[[15]], out[[16]], nrow = 4, ncol = 4)
+all.histo1 <- grid.arrange(out[[1]], out[[2]], out[[3]],out[[4]],  out[[5]],  out[[6]], out[[7]], out[[8]], out[[9]], nrow = 3, ncol = 3)
 
-all.histo2 <- grid.arrange(out[[17]],  out[[18]],  out[[19]], out[[20]], out[[21]], out[[22]], out[[23]], out[[24]], out[[25]], out[[26]], out[[27]], out[[28]], out[[29]], out[[30]],out[[31]], nrow = 4, ncol = 4)
+all.histo2 <- grid.arrange(out[[10]],  out[[11]],  out[[12]], out[[13]],  out[[14]], out[[15]], out[[16]],out[[17]],  out[[18]], nrow = 3, ncol = 3)
+
+all.histo3 <- grid.arrange(out[[19]], out[[20]], out[[21]], out[[22]], out[[23]], out[[24]], out[[25]], out[[26]], out[[27]], nrow = 3, ncol = 3)
+
+all.histo4 <- grid.arrange(out[[28]], out[[29]], out[[30]],out[[31]], nrow = 3, ncol = 3)
 
 ggsave(all.histo1, file = "allhistonew1.pdf", width = 45 , height = 30, units = "cm") # width = 1500, height = 1000
 ggsave(all.histo2, file = "allhistonew2.pdf", width = 45 , height = 30, units = "cm") # width = 1500, height = 1000
+ggsave(all.histo3, file = "allhistonew3.pdf", width = 45 , height = 30, units = "cm") # width = 1500, height = 1000
+ggsave(all.histo4, file = "allhistonew4.pdf", width = 45 , height = 30, units = "cm") # width = 1500, height = 1000
 
 data_profile <-   psych::describe(injury.profiles[,-c(1:3)], type = 2)
 data_profile$vars <- row.names(data_profile)
@@ -183,3 +189,4 @@ cor.of.cor <- cor(bind.cor)
 pheatmap(cor.of.cor, cellwidth = 50, cellheight = 50, fontsize = 16)
 
 save(file = "injuryprofiles.RData", injury.profiles)
+load(file = "injuryprofiles.RData")

@@ -45,7 +45,8 @@ injury.profiles$year <- NULL  # remove column year
 
 #### 2. Generate the correlationsion matrix  #####
 
-source("~/Documents/Github/skep2-network/chapter3/R/functions/function_cooc_table.R")
+#source("~/Documents/Github/skep2-network/chapter3/R/functions/function_cooc_table.R")
+source("chapter3/R/functions/function_cooc_table.R")
 
 # subset the data by country and season
 CP.ds <- injury.profiles %>% filter(prod_env == "Central_Plain" & season == "dry_season")
@@ -77,7 +78,8 @@ for (i in 1:length(country.season.dataset)) {
 }
  
 ##### 3. Generate the network object  #####
-source("~/Documents/Github/skep2-network/chapter3/R/functions/function_plot_network.R")
+#source("~/Documents/Github/skep2-network/chapter3/R/functions/function_plot_network.R")
+source("chapter3/R/functions/function_plot_network.R")
 
 
 country.season.net <- list()
@@ -85,12 +87,10 @@ country.season.net <- list()
 for (i in 1:length(country.season.cor.mat)) {
   
   # keep the correlation coefficient at p.value < 0.05
-  cut.table <- country.season.cor.mat[[i]] 
-  #%>% filter(p.value < 0.05) %>% filter(rho > 0)
+  cut.table <- country.season.cor.mat[[i]] %>% filter(p.value < 0.05) %>% filter(rho > 0)
 
 # construct the netwotk object 
-country.season.net[[i]] <- 
-  plot_network(cut.table)
+country.season.net[[i]] <- plot_network(cut.table)
 
 }
 # name the list object
@@ -118,7 +118,8 @@ net$layout <- layout_with_fr
 # ========== The network properties display ============= # 
 # plot dot plot
 
-source("~/Documents/Github/skep2-network/chapter3/R/functions/function_plot.node.centrality.R") 
+#source("~/Documents/Github/skep2-network/chapter3/R/functions/function_plot.node.centrality.R") 
+source("chapter3/R/functions/function_plot.node.centrality.R")
 for(i in 1:length(country.season.net)){
   dotgraph <- plot.node.centrality(country.season.net[[i]]) 
   ggsave(dotgraph, file = paste("./chapter3/results/plots/nodepropnew.net", names(country.season.net)[i] ,".pdf", sep =""), width = 15, height = 8)

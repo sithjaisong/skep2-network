@@ -13,18 +13,18 @@ cus_theme <-   theme_bw() + theme(
         axis.title = element_text(size = 18),
         axis.text = element_text(size = 14))
 
-p1 <- cen %>% ggplot(aes(x= Degree, y = reorder(node, Degree))) +
+p1 <- cen %>% ggplot(aes(x= Degree, y = node)) +
   geom_point(size = 5, color ="red") +
   cus_theme + 
   xlab("Node degree") + 
   ylab("Node")    
 
-p2 <- cen %>% ggplot(aes(x= CC, y = reorder(node, CC))) + 
+p2 <- cen %>% ggplot(aes(x= CC, y = node)) + 
   geom_point(size = 5, color ="blue") +
   cus_theme +theme(axis.title.y = element_blank()) +
   xlab("Clustering Coef") 
 
-p3 <- cen %>% ggplot(aes(x= Betweenness, y = reorder(node, Betweenness))) + 
+p3 <- cen %>% ggplot(aes(x= Betweenness, y = node)) + 
   geom_point(size = 5, color = "black") +
   cus_theme + theme(axis.title.y = element_blank()) +
   xlab("Betweenness")
