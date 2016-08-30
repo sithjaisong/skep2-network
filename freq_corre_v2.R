@@ -18,13 +18,13 @@ for (i in 1:length(country.season.cor.mat)) {
 
 for (i in 1:length(rho.value.test)) {
 
-his <- rho.value.test[[i]] %>% ggplot(aes(rho, color=correlation, fill=correlation)) + 
+his <-   rho.value.test[[i]] %>% ggplot(aes(rho, color=correlation, fill=correlation)) + 
   geom_histogram(alpha=0.55) + 
   scale_fill_manual(values=c("#8B1A1A", "#104E8B")) +
   scale_color_manual(values=c("#8B1A1A", "#104E8B")) +
+  theme(legend.justification=c(1,1), legend.position=c(1,1)) +
   xlab(expression(paste("Injury interaction strength (|", italic(R)^2, ")|)"))) +
   ylab("Frequency")
-
 ggsave(his,  file = paste("his_rho", country.season[i], ".pdf", sep = ""))
 
 }

@@ -235,3 +235,4 @@ net.df %>% dplyr::select(country_season, everything()) %>% write_csv(path = "net
 net.df %>% xtable()
 
 save(country.season.net, country.season.cor.mat, file = "countryseasonnet.RData")
+load(file = "countryseasonnet.RData")
