@@ -110,19 +110,21 @@ for(i in 1: length(country.season.net)){
 }
 
 
-E(net)[weight > 0]$color <- adjustcolor("steelblue2" , alpha.f = .8)
-E(net)[weight < 0]$color <- adjustcolor("red2", alpha.f = .8)
-V(net)$size <- 15
-net$layout <- layout_with_fr
-  plot(net)
+#E(net)[weight > 0]$color <- adjustcolor("steelblue2" , alpha.f = .8)
+#E(net)[weight < 0]$color <- adjustcolor("red2", alpha.f = .8)
+#V(net)$size <- 15
+#net$layout <- layout_with_fr
+#  plot(net)
 # ========== The network properties display ============= # 
 # plot dot plot
 
 #source("~/Documents/Github/skep2-network/chapter3/R/functions/function_plot.node.centrality.R") 
-source("chapter3/R/functions/function_plot.node.centrality.R")
+#source("chapter3/R/functions/function_plot.node.centrality.R")
+source("chapter3/R/functions/function_plot.node.centrality_v2.R")
+
 for(i in 1:length(country.season.net)){
-  dotgraph <- plot.node.centrality(country.season.net[[i]]) 
-  ggsave(dotgraph, file = paste("./chapter3/results/plots/nodepropnew.net", names(country.season.net)[i] ,".pdf", sep =""), width = 15, height = 8)
+  bargraph <- plot.node.centrality(country.season.net[[i]]) 
+  ggsave(bargraph, file = paste("./chapter3/results/plots/nodeprop.bargraph", names(country.season.net)[i] ,".pdf", sep =""), width = 15, height = 8)
 }
 dotgraph
 
