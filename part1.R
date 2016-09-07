@@ -35,7 +35,8 @@ for(i in 1:length(varnames)) {
   gdata <- m.all %>% filter(variable == varnames[i])
   p <- ggplot(gdata, aes(x = value)) + 
     geom_histogram(stat = "bin") + ylab("No. of farmers' fields") + ggtitle(paste(varnames[i], sep = " ")) + 
-    theme_bw() + theme(axis.title.y = element_text(hjust = 0.5, size = 9)) + scale_x_continuous(expand = c(0, 0))
+    theme_bw() + theme(axis.title.x = element_text(hjust = 0.5, size = 16), 
+                       axis.title.y = element_text(hjust = 0.5, size = 16)) + scale_x_continuous(expand = c(0, 0))
  out[[i]] <- p
 }
 
@@ -183,7 +184,7 @@ row.names(bind.cor) <- NULL
 
 ##### Cluster Analysis and correlation matrix #####
 
-dis <- dist(bind.cor, diag=TRUE)
+dis <- dist(bind.cor, diag = TRUE)
 dis <- as.matrix(dis)
 cor.of.cor <- cor(bind.cor)
 pheatmap(cor.of.cor, cellwidth = 50, cellheight = 50, fontsize = 16)
