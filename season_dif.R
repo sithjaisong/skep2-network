@@ -15,7 +15,7 @@ source("~/Documents/Github/skep2-network/chapter4/R/functions/function_plot.difn
 
 load(file = "countryseasonnet.RData")
 
-plot(country.seapair.IP.list <- as.data.frame(as.matrix(country.season.cor.mat[[1]][1:2]))
+#plot(country.seapair.IP.list <- as.data.frame(as.matrix(country.season.cor.mat[[1]][1:2]))
 
 
 cor.mat <- list()

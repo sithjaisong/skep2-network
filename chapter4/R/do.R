@@ -62,7 +62,8 @@ WJ.ws.drifter <- diff.injury.profiles %>% filter(prod_env == "West_Java" & seaso
 
 # list the dataset by country season
 
-source("~/Documents/Github/skep2-network/chapter4/R/functions/function_compcorr.R")
+#source("~/Documents/Github/skep2-network/chapter4/R/functions/function_compcorr.R")
+source("chapter4/R/functions/function_compcorr.R")
 source("~/Documents/Github/skep2-network/chapter4/R/functions/function_diff.corr.R")
 
 source("~/Documents/Github/skep2-network/chapter4/R/functions/function_plot.network.R")
@@ -83,7 +84,8 @@ data.list <- list(CP.ds.adopter, CP.ds.majority, CP.ws.adopter, CP.ws.majority,
                   WJ.ds.adopter, WJ.ds.majority, WJ.ds.drifter, WJ.ws.adopter, WJ.ws.majority, WJ.ws.drifter)
 #names(dif_CP.ds) <- c("CP.ds.adopter", "CP.ds.majority", )
 
-source("~/Documents/Github/network.project/chapter3/R/functions/function_cooc_table.R")
+#source("~/Documents/Github/network.project/chapter3/R/functions/function_cooc_table.R")
+source("chapter3/R/functions/function_cooc_table.R")
 cor.mat <- list()
 for (i in 1:length(data.list)) {
   

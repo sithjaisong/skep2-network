@@ -8,8 +8,11 @@ library(DiffCorr)
 library(graph)
 library(QuACN)
 library(readr)
+library(cowplot)
 
-survey <- read_csv(file = "/Users/sithjaisong/Google Drive/4.SKEP2ProjectData/Farm_survey/SKEP2_survey.csv")
+#survey <- read_csv(file = "/Users/sithjaisong/Google Drive/4.SKEP2ProjectData/Farm_survey/SKEP2_survey.csv")
+survey <- read_csv(file = "SKEP2_survey.csv")
+
 
 yield_injuries <- survey %>% dplyr::select(prod_env, year, season, yield, RT, RH, SS, WH, PM, RB, DH, DP, FS, NB, SR, RTH, LF, LM, LS, WM, 
                                                    BLB, BLS, BS, LB, NBS, RS, BB, HB, GS, RGS, RTG, SHB, SHR, WA, WB) %>% 
@@ -51,20 +54,21 @@ ggsave(yield_level_bar, filename = "yield_level_bar.pdf", width = 15, height = 5
 # for yield diff of WJ will high vs medium
 
 
-CP.high <- yield_injuries %>% filter(prod_env == "Central_Plain" & yield_level == "high")
-CP.med <- yield_injuries %>% filter(prod_env == "Central_Plain" & yield_level == "medium")
+CP.high <- yield_injuries %>% filter(prod_env == "Central Plain" & yield_level == "high")
+CP.med <- yield_injuries %>% filter(prod_env == "Central Plain" & yield_level == "medium")
 OD.med <- yield_injuries %>% filter(prod_env == "Odisha" & yield_level == "medium")
 OD.low <- yield_injuries %>% filter(prod_env == "Odisha" & yield_level == "low")
-RR.high <- yield_injuries %>% filter(prod_env == "Red_river_delta" & yield_level == "high")
-RR.med <- yield_injuries %>% filter(prod_env == "Red_river_delta" & yield_level == "medium")
-TM.med <- yield_injuries %>% filter(prod_env == "Tamil_Nadu" & yield_level == "medium")
-TM.low <- yield_injuries %>% filter(prod_env == "Tamil_Nadu" & yield_level == "low")
-WJ.high <- yield_injuries %>% filter(prod_env == "West_Java" & yield_level == "high")
-WJ.med <- yield_injuries %>% filter(prod_env == "West_Java" & yield_level == "medium")
+RR.high <- yield_injuries %>% filter(prod_env == "Red River Delta" & yield_level == "high")
+RR.med <- yield_injuries %>% filter(prod_env == "Red River Delta" & yield_level == "medium")
+TM.med <- yield_injuries %>% filter(prod_env == "Tamil Nadu" & yield_level == "medium")
+TM.low <- yield_injuries %>% filter(prod_env == "Tamil Nadu" & yield_level == "low")
+WJ.high <- yield_injuries %>% filter(prod_env == "West Java" & yield_level == "high")
+WJ.med <- yield_injuries %>% filter(prod_env == "West Java" & yield_level == "medium")
 
 yield.country.dataset <- list(CP.med, CP.high, OD.low, OD.med, RR.med, RR.high, TM.med, TM.low, WJ.med, WJ.high)
 
-source("~/Documents/Github/skep2-network/chapter3/R/functions/function_cooc_table.R")
+#source("~/Documents/Github/skep2-network/chapter3/R/functions/function_cooc_table.R")
+source("chapter3/R/functions/function_cooc_table.R")
 
 yield.country.cor.mat <- list()
 
@@ -78,14 +82,14 @@ for (i in 1:length(yield.country.dataset)) {
   yield.country.cor.mat[[i]] <- cooc_table(temp)
 }
 
-source("~/Documents/Github/skep2-network/chapter3/R/functions/function_plot_network.R")
-
+#source("~/Documents/Github/skep2-network/chapter3/R/functions/function_plot_network.R")
+source("chapter3/R/functions/function_plot_network.R")
 yield.country.net <- list()
 
 for (i in 1:length(yield.country.cor.mat)) {
   
   # keep the correlation coefficient at p.value < 0.05
-  cut.table <- yield.country.cor.mat[[i]] %>% filter(p.value < 0.05) %>%filter(rho > 0)
+  cut.table <- yield.country.cor.mat[[i]] %>% filter(p.value < 0.05) %>% filter(rho > 0)
   
   # construct the netwotk object 
   yield.country.net[[i]] <- plot_network(cut.table)
@@ -104,11 +108,16 @@ names(yield.country.net) <- c("CP_med", "CP_high",  "OR_low", "OR_med","RR_med",
 # ========== The network properties display ============= # 
 # plot dot plot
 
-source("~/Documents/Github/skep2-network/chapter3/R/functions/function_plot.node.centrality.R") 
-#for(i in 1:length(yield.country.net)){
-#  dotgraph <- plot.node.centrality(yield.country.net[[i]]) 
-#  ggsave(dotgraph, file = paste("./chapter4/results/yield_nodeprop", names(yield.country.net)[i] ,".pdf", sep =""), width = 15, height = 12)
-#}
+#source("~/Documents/Github/skep2-network/chapter3/R/functions/function_plot.node.centrality.R") 
+
+source("chapter3/R/functions/function_plot.node.centrality.R") 
+
+
+
+for(i in 1:length(yield.country.net)){
+  dotgraph <- plot.node.centrality(yield.country.net[[i]]) 
+  ggsave(dotgraph, file = paste("./chapter4/results/yield_nodeprop_new", names(yield.country.net)[i] ,".pdf", sep =""), width = 15, height = 12)
+}
 
 
 
