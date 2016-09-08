@@ -110,24 +110,28 @@ names(yield.country.net) <- c("CP_med", "CP_high",  "OR_low", "OR_med","RR_med",
 
 #source("~/Documents/Github/skep2-network/chapter3/R/functions/function_plot.node.centrality.R") 
 
-source("chapter3/R/functions/function_plot.node.centrality.R") 
+source("chapter3/R/functions/function_plot.node.centrality_v2.R") 
 
 
 
-for(i in 1:length(yield.country.net)){
-  dotgraph <- plot.node.centrality(yield.country.net[[i]]) 
-  ggsave(dotgraph, file = paste("./chapter4/results/yield_nodeprop_new", names(yield.country.net)[i] ,".pdf", sep =""), width = 15, height = 12)
-}
+#for(i in 1:length(yield.country.net)){
+#  dotgraph <- plot.node.centrality(yield.country.net[[i]]) 
+#  ggsave(dotgraph, file = paste("./chapter4/results/yield_nodeprop_new", names(yield.country.net)[i] ,".pdf", sep =""), width = 15, height = 12)
+#}
 
 
 
 # list the dataset by country season
 
-source("~/Documents/Github/skep2-network/chapter4/R/functions/function_compcorr.R")
-source("~/Documents/Github/skep2-network/chapter4/R/functions/function_diff.corr.R")
+#source("~/Documents/Github/skep2-network/chapter4/R/functions/function_compcorr.R")
+source("chapter4/R/functions/function_compcorr.R")
+#source("~/Documents/Github/skep2-network/chapter4/R/functions/function_diff.corr.R")
+source("chapter4/R/functions/function_diff.corr.R")
 
-source("~/Documents/Github/skep2-network/chapter4/R/functions/function_plot.network.R")
-source("~/Documents/Github/skep2-network/chapter4/R/functions/function_plot.yield.difnetwork.R")
+#source("~/Documents/Github/skep2-network/chapter4/R/functions/function_plot.network.R")
+source("chapter4/R/functions/function_plot.network.R")
+# source("~/Documents/Github/skep2-network/chapter4/R/functions/function_plot.yield.difnetwork.R")
+source("chapter4/R/functions/function_plot.yield.difnetwork.R")
 
 
 pair.IP.list <- as.data.frame(as.matrix(yield.country.cor.mat[[1]][1:2]))
@@ -136,8 +140,8 @@ pair.IP.list <- as.data.frame(as.matrix(yield.country.cor.mat[[1]][1:2]))
 cor.mat <- list()
 yielddifnet <- list()
 
-#area <- c("Central_Plain", "Odisha", "Red_River_Delta", "Tamil_ Nadu", "West_Java")
-#i <- 1
+area <- c("Central_Plain", "Odisha", "Red_River_Delta", "Tamil_ Nadu", "West_Java")
+i <- 1
 for (i in 1:5) {
   cor.mat[[2*(i -1) +1]] <- yield.country.cor.mat[[2*(i -1) +1]] 
   cor.mat[[2*(i -1) +2]] <- yield.country.cor.mat[[2*(i -1) +2]]
@@ -179,7 +183,9 @@ for (i in 1:5) {
   #dev.off()
 }
 
-source("~/Documents/Github/skep2-network/chapter3/R/functions/function_node_net_stat.R")
+#source("~/Documents/Github/skep2-network/chapter3/R/functions/function_node_net_stat.R")
+source("chapter3/R/functions/function_node_net_stat.R")
+
 re_yielddifnet <- list()
 
 for (i in 1:5) {
@@ -218,9 +224,9 @@ re_yielddifnet.node.stat.list.node.df <- re_yielddifnet.node.stat.list.node.df %
  node_stat(re_difnet[[4]])
  node_stat(re_difnet[[5]])
 
- for(i in 1:length(re_difnet)){
+ for(i in 1:length(re_yielddifnet)){
    dotgraph <- plot.node.centrality(re_yielddifnet[[i]]) 
-   ggsave(dotgraph, file = paste("./chapter4/results/yield_dif_newnodeprop", area[i] ,".pdf", sep =""), width = 15, height = 8)
+   ggsave(dotgraph, file = paste("./chapter4/results/yield_dif_newnodeprop_new", area[i] ,".pdf", sep =""), width = 15, height = 8)
  }
  
  
