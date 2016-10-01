@@ -129,8 +129,10 @@ for(i in 1:length(country.season.net)){
 dotgraph
 
 ##### 4. network statistics #####
-source("~/Documents/Github/skep2-network/chapter3/R/functions/function_node_net_stat.R")  # node_stat() and net_stat()
-source("~/Documents/Github/skep2-network/chapter3/R/functions/function_random_graph.R") 
+#source("~/Documents/Github/skep2-network/chapter3/R/functions/function_node_net_stat.R")# node_stat() and net_stat()
+source("chapter3/R/functions/function_node_net_stat.R")
+source("~/Documents/Github/skep2-network/chapter3/R/functions/function_random_graph.R")
+source("chapter3/R/functions/function_random_graph.R") 
 
 # compute the node statistic properties
 node.stat.list <- sapply(country.season.net, node_stat, simplify = FALSE, 
@@ -156,7 +158,6 @@ node.df %>% dplyr::select(country_season, degree) %>%
   ggplot(aes(x = country_season, y = degree, fill = country_season)) + geom_boxplot() + scale_fill_brewer(palette = "Paired")
 
 node.df %>% dplyr::select(country_season, betweenness) %>% ggplot(aes(x = country_season, y = betweenness, fill = country_season)) + geom_boxplot() + scale_fill_brewer(palette = "Paired")
-
 
 #http://blog.revolutionanalytics.com/2014/12/finding-clusters-of-cran-packages-using-igraph.html
 
@@ -233,6 +234,8 @@ row.names(net.df) <- NULL
  # reorder the colummn by moving column named country_season into the first
 net.df %>% dplyr::select(country_season, everything()) %>% write_csv(path = "net_prop.csv")
 net.df %>% xtable()
+
+write.csv(net.df, file ="netdf.csv" )
 
 save(country.season.net, country.season.cor.mat, file = "countryseasonnet.RData")
 load(file = "countryseasonnet.RData")
