@@ -1,0 +1,448 @@
+"","prod_env","season","year","long","lat"
+"1","Red rive delta","dry_season","2013",106.2334,20.4816
+"2","Red rive delta","dry_season","2015",106.391,20.8
+"3","Red rive delta","dry_season","2015",106.385,20.797
+"4","Red rive delta","wet_season","2015",106.394,20.799
+"5","Red rive delta","dry_season","2015",106.386,20.797
+"6","Red rive delta","dry_season","2015",106.392,20.799
+"7","Red rive delta","dry_season","2015",106.398,20.787
+"8","Red rive delta","dry_season","2015",106.231,20.477
+"9","Red rive delta","dry_season","2015",106.231,20.477
+"10","Red rive delta","dry_season","2015",106.239,20.476
+"11","Red rive delta","dry_season","2015",106.384,20.793
+"12","Red rive delta","dry_season","2015",106.387,20.795
+"13","Red rive delta","dry_season","2015",106.398,20.786
+"14","Red rive delta","dry_season","2015",106.398,20.787
+"15","Red rive delta","dry_season","2015",106.384,20.793
+"16","Red rive delta","dry_season","2015",106.399,20.785
+"17","Red rive delta","dry_season","2015",106.394,20.799
+"18","West Java","dry_season","2013",107.471,-6.28915
+"19","West Java","dry_season","2013",107.471,-6.2891
+"20","West Java","dry_season","2013",107.47245,-6.28895
+"21","West Java","dry_season","2013",107.471366666667,-6.28611666666667
+"22","West Java","dry_season","2013",107.138733333333,-6.28923333333333
+"23","West Java","dry_season","2013",107.007862777778,-6.30245861111111
+"24","West Java","dry_season","2013",107.472633333333,-6.31541666666667
+"25","West Java","dry_season","2013",107.471733333333,-6.31416666666667
+"26","West Java","dry_season","2013",107.471733333333,-6.3085
+"27","Central plain","wet_season","2013",100.15801,14.64735
+"28","Central plain","wet_season","2013",100.19383,14.69941
+"29","Central plain","wet_season","2013",100.19131,14.69959
+"30","Central plain","wet_season","2013",100.16916,14.67126
+"31","Central plain","wet_season","2013",100.15812,14.64735
+"32","Central plain","wet_season","2013",100.15812,14.64735
+"33","Central plain","wet_season","2013",100.19379,14.69936
+"34","Central plain","wet_season","2013",100.1898,14.69831
+"35","Central plain","wet_season","2013",100.19027,14.69848
+"36","Central plain","wet_season","2013",100.19759,14.6075
+"37","Central plain","wet_season","2013",100.19758,14.60801
+"38","Central plain","wet_season","2013",100.19698,14.6077
+"39","West Java","dry_season","2013",107.471766666667,-6.31418333333333
+"40","West Java","dry_season","2013",107.4775,-6.30175
+"41","West Java","dry_season","2013",107.472,-6.30376666666667
+"42","West Java","dry_season","2013",107.471833333333,-6.30528333333333
+"43","West Java","dry_season","2013",107.473883333333,-6.30541666666667
+"44","West Java","dry_season","2013",107.4714,-6.30758333333333
+"45","West Java","wet_season","2013",107.47555,-6.31373333333333
+"46","West Java","wet_season","2013",107.474566666667,-6.31428333333333
+"47","Central plain","wet_season","2013",100.1973,14.60739
+"48","Central plain","wet_season","2013",100.20232,14.60223
+"49","Central plain","wet_season","2013",100.19559,14.60784
+"50","West Java","dry_season","2014",107.49,-6.266
+"51","West Java","wet_season","2013",107.470883333333,-6.31411666666667
+"52","Central plain","wet_season","2013",100.20091,14.60259
+"53","Central plain","wet_season","2013",100.20011,14.61033
+"54","Central plain","wet_season","2013",100.20038,14.61004
+"55","Central plain","wet_season","2013",100.19827,14.61488
+"56","West Java","wet_season","2013",107.47135,-6.3306
+"57","Central plain","wet_season","2013",100.17402,14.63069
+"58","West Java","wet_season","2013",107.47025,-6.31333333333333
+"59","West Java","wet_season","2013",107.55,-6.29211666666667
+"60","West Java","dry_season","2014",107.45,-6.28
+"61","West Java","wet_season","2013",107.47655,-6.2907
+"62","West Java","wet_season","2013",107.476883333333,-6.29135
+"63","West Java","wet_season","2013",107.473683333333,-6.30113333333333
+"64","Central plain","dry_season","2013",100.1649,14.66783
+"65","Central plain","dry_season","2013",100.16387,14.66754
+"66","Central plain","dry_season","2013",100.16301,14.67885
+"67","Central plain","dry_season","2013",100.16302,14.68077
+"68","Central plain","dry_season","2013",100.19176,14.6705
+"69","Central plain","dry_season","2013",100.19018,14.66983
+"70","Central plain","dry_season","2013",100.18964,14.66965
+"71","Central plain","dry_season","2013",100.19163,14.65594
+"72","Central plain","dry_season","2013",100.19158,14.65808
+"73","Central plain","dry_season","2013",100.19156,14.65785
+"74","Central plain","dry_season","2013",100.17774,14.67459
+"75","Red rive delta","dry_season","2013",106.2336,20.4817
+"76","Red rive delta","dry_season","2013",106.2351,20.4832
+"77","Red rive delta","dry_season","2013",106.232,20.4813
+"78","Central plain","dry_season","2013",100.15984,14.64009
+"79","West Java","wet_season","2013",107.48056,-6.27408
+"80","Central plain","dry_season","2013",100.18236,14.64939
+"81","Central plain","dry_season","2013",100.1666,14.62793
+"82","Central plain","dry_season","2013",100.16653,14.62793
+"83","Central plain","dry_season","2013",100.19513,14.60803
+"84","West Java","wet_season","2013",107.48313,-6.27874
+"85","Central plain","dry_season","2013",100.19545,14.60875
+"86","Central plain","dry_season","2013",100.19472,14.60826
+"87","Central plain","dry_season","2013",100.19959,14.60541
+"88","Central plain","dry_season","2013",100.20596,14.60774
+"89","Red rive delta","dry_season","2013",20.7904,106.3898
+"90","Red rive delta","dry_season","2014",106.3899,20.7907
+"91","Red rive delta","dry_season","2014",106.3899,20.7906
+"92","Tamil Nadu","wet_season","2013",79.56215,11.0648666666667
+"93","Red rive delta","dry_season","2014",106.3899,20.7906
+"94","Red rive delta","dry_season","2014",106.3899,20.7906
+"95","Red rive delta","dry_season","2013",106.23194,20.47703
+"96","Red rive delta","wet_season","2014",106.3919,20.800327
+"97","Red rive delta","wet_season","2014",106.3929,20.799788
+"98","West Java","wet_season","2013",107.471,-6.3076
+"99","Red rive delta","dry_season","2013",106.23147,20.47462
+"100","Red rive delta","dry_season","2013",106.23183,20.477
+"101","Red rive delta","wet_season","2014",106.3859,20.797268
+"102","Red rive delta","wet_season","2014",106.3945,20.799427
+"103","Red rive delta","wet_season","2014",106.386,20.797781
+"104","West Java","wet_season","2013",107.472,-6.3044
+"105","West Java","wet_season","2013",107.471366666667,-6.3076
+"106","West Java","wet_season","2013",107.47285,-6.30433333333333
+"107","Odisha","dry_season","2013",85.96695,20.31765
+"108","Red rive delta","dry_season","2013",106.23097,20.47413
+"109","Red rive delta","dry_season","2013",106.242,20.4729
+"110","Red rive delta","dry_season","2013",106.2418,20.4728
+"111","Red rive delta","dry_season","2013",106.2323,20.4724
+"112","Red rive delta","dry_season","2013",106.22963,20.4761
+"113","Red rive delta","dry_season","2013",106.2322,20.4725
+"114","Red rive delta","dry_season","2014",106.3919,20.800327
+"115","Red rive delta","dry_season","2014",106.386,20.797781
+"116","Red rive delta","dry_season","2014",106.3859,20.797268
+"117","Red rive delta","dry_season","2013",106.2252,20.4719
+"118","Red rive delta","dry_season","2014",106.3825,20.8013888888889
+"119","Red rive delta","dry_season","2014",106.378611111111,20.8011111111111
+"120","Red rive delta","dry_season","2014",106.398611111111,20.8216666666667
+"121","Red rive delta","dry_season","2014",106.383611111111,20.8088888888889
+"122","Red rive delta","dry_season","2014",106.383888888889,20.8019444444444
+"123","Red rive delta","dry_season","2014",106.3945,20.799427
+"124","Red rive delta","dry_season","2014",106.3929,20.799788
+"125","Tamil Nadu","wet_season","2013",79.5648833333333,11.0634833333333
+"126","Red rive delta","wet_season","2014",106.383611111111,20.8088888888889
+"127","Red rive delta","wet_season","2014",106.3899,20.7906
+"128","Tamil Nadu","wet_season","2013",79.5677166666667,11.0642
+"129","Tamil Nadu","wet_season","2013",79.57055,11.0647333333333
+"130","Tamil Nadu","wet_season","2013",79.56835,11.0670166666667
+"131","Tamil Nadu","wet_season","2013",79.5650666666667,11.0526666666667
+"132","Tamil Nadu","wet_season","2013",79.5673833333333,11.05355
+"133","Tamil Nadu","wet_season","2013",79.5710166666667,11.05345
+"134","Tamil Nadu","wet_season","2013",79.5631166666667,11.0451333333333
+"135","Red rive delta","wet_season","2014",106.3898,20.7904
+"136","Tamil Nadu","wet_season","2013",79.5647833333333,11.0415833333333
+"137","Red rive delta","wet_season","2014",106.3899,20.7906
+"138","Red rive delta","wet_season","2014",106.3899,20.7907
+"139","Red rive delta","wet_season","2014",106.2334,20.4816
+"140","Red rive delta","wet_season","2014",106.2351,20.4832
+"141","Red rive delta","wet_season","2014",106.232,20.4813
+"142","Red rive delta","wet_season","2014",106.3933,20.8063
+"143","Red rive delta","wet_season","2013",106.23097,20.47413
+"144","Red rive delta","wet_season","2013",106.2329,20.4715
+"145","Red rive delta","wet_season","2013",106.2341,20.47
+"146","Red rive delta","wet_season","2013",106.2331,20.5152
+"147","Red rive delta","wet_season","2014",106.2326,20.4715
+"148","Odisha","dry_season","2013",85.9628166666667,20.3213833333333
+"149","Red rive delta","wet_season","2015",106.398317,20.787
+"150","Red rive delta","wet_season","2015",106.398,20.786
+"151","Red rive delta","wet_season","2015",106.398,20.787
+"152","Red rive delta","wet_season","2015",106.384,20.793
+"153","Red rive delta","wet_season","2015",106.399,20.785
+"154","Red rive delta","wet_season","2015",106.386,20.797
+"155","Red rive delta","wet_season","2015",106.394,20.799
+"156","Odisha","dry_season","2013",85.9653333333333,20.3008
+"157","Red rive delta","wet_season","2015",106.385,20.797
+"158","Red rive delta","wet_season","2015",106.392,20.799
+"159","Red rive delta","wet_season","2015",106.391,20.8
+"160","Odisha","dry_season","2013",85.9694,20.3164666666667
+"161","Odisha","dry_season","2013",85.97745,20.30095
+"162","Odisha","dry_season","2013",85.9738666666667,20.2996166666667
+"163","Odisha","dry_season","2013",85.97115,20.3044
+"164","Odisha","dry_season","2013",85.9653166666667,20.3015
+"165","Odisha","dry_season","2013",85.9778166666667,20.29895
+"166","Odisha","dry_season","2013",85.9742333333333,20.30685
+"167","Odisha","dry_season","2013",85.97375,20.3039
+"168","Odisha","dry_season","2013",85.9651166666667,20.3191
+"169","Odisha","dry_season","2013",85.9698666666667,20.3143166666667
+"170","Odisha","dry_season","2013",85.9695166666667,20.31935
+"171","Odisha","dry_season","2013",85.9662166666667,20.3041
+"172","Red rive delta","wet_season","2015",106.388,20.774
+"173","Red rive delta","wet_season","2015",106.384,20.793
+"174","Red rive delta","wet_season","2015",106.387,20.795
+"175","Red rive delta","wet_season","2015",106.395,20.792
+"176","Tamil Nadu","dry_season","2013",79.44245,10.9256833333333
+"177","Tamil Nadu","dry_season","2013",79.4421166666667,10.9313166666667
+"178","Tamil Nadu","dry_season","2013",79.4334166666667,10.9167833333333
+"179","Tamil Nadu","dry_season","2013",79.5701166666667,11.0267166666667
+"180","Tamil Nadu","dry_season","2013",79.4287666666667,10.9165666666667
+"181","Tamil Nadu","dry_season","2013",79.56835,11.0670166666667
+"182","Tamil Nadu","dry_season","2013",79.4457,10.9377666666667
+"183","Tamil Nadu","dry_season","2013",79.4367333333333,10.9457833333333
+"184","Tamil Nadu","dry_season","2013",79.4358333333333,10.9526666666667
+"185","West Java","dry_season","2014",107.49,-6.265
+"186","West Java","dry_season","2014",107.49,-6.266
+"187","West Java","dry_season","2014",107,-6.28
+"188","West Java","dry_season","2014",107.48,-6.266
+"189","West Java","dry_season","2014",107.49,-6.266
+"190","West Java","dry_season","2014",107.4,-6.267
+"191","West Java","dry_season","2014",107,-6.293
+"192","West Java","dry_season","2014",107.45,-6.269
+"193","West Java","dry_season","2014",107.45,-6.275
+"194","West Java","dry_season","2014",107.45,-6.269
+"195","West Java","dry_season","2014",107.45,-6.27
+"196","West Java","dry_season","2014",107.46,-6.27
+"197","West Java","dry_season","2014",107,-6.293
+"198","Tamil Nadu","dry_season","2013",79.4338,10.9575166666667
+"199","Tamil Nadu","wet_season","2013",79.5653666666667,11.0363666666667
+"200","Tamil Nadu","wet_season","2013",79.5662666666667,11.0320666666667
+"201","Tamil Nadu","wet_season","2013",79.5707666666667,11.0319
+"202","Tamil Nadu","wet_season","2013",79.57,11.0287
+"203","Tamil Nadu","wet_season","2013",79.5627666666667,11.0571833333333
+"204","Tamil Nadu","dry_season","2013",79.44565,10.9829
+"205","Odisha","wet_season","2014",85.5413,20.22928
+"206","Tamil Nadu","dry_season","2013",79.5298833333333,11.05035
+"207","Tamil Nadu","dry_season","2013",79.57055,11.0640666666667
+"208","Central plain","wet_season","2014",100.08705,14.64278
+"209","Central plain","wet_season","2014",100.1064,14.6458
+"210","Central plain","wet_season","2014",100.1355,14.6811
+"211","Central plain","wet_season","2014",100.1344,14.6385
+"212","Central plain","wet_season","2014",100.11432,14.63623
+"213","Central plain","wet_season","2014",100.1322,14.6868
+"214","Central plain","wet_season","2014",100.11432,14.63623
+"215","Central plain","wet_season","2014",100.0964,14.6314
+"216","Central plain","wet_season","2014",100.1379,14.6922
+"217","Central plain","wet_season","2014",100.1175,14.6447
+"218","Central plain","wet_season","2014",100.20194,14.63177
+"219","Central plain","wet_season","2014",100.1119,14.6115
+"220","Central plain","wet_season","2014",100.1351,14.6404
+"221","Central plain","wet_season","2014",100.08633,14.64321
+"222","Central plain","wet_season","2014",100.02478,14.66316
+"223","Central plain","wet_season","2014",100.11432,14.63623
+"224","Central plain","wet_season","2014",100.11432,14.63623
+"225","Central plain","wet_season","2014",100.11432,14.63623
+"226","Central plain","wet_season","2014",100.08633,14.64321
+"227","Central plain","wet_season","2014",100.11432,14.63623
+"228","Central plain","wet_season","2014",100.08633,14.64321
+"229","Central plain","dry_season","2014",100.213657,14.671434
+"230","Central plain","dry_season","2014",100.11432,14.63623
+"231","Central plain","dry_season","2014",100.040977,14.803869
+"232","Central plain","dry_season","2014",100.11432,14.63623
+"233","Central plain","dry_season","2014",100.11432,14.63623
+"234","Central plain","dry_season","2014",100.213657,14.671434
+"235","Central plain","dry_season","2014",100.11432,14.63623
+"236","Tamil Nadu","wet_season","2014",79.3,11.02686
+"237","Odisha","wet_season","2014",85.5513,20.22968
+"238","Central plain","dry_season","2014",100.13137,14.46523
+"239","Central plain","dry_season","2014",100.09752,14.75795
+"240","Central plain","dry_season","2014",100.11022,14.63787
+"241","Central plain","dry_season","2014",100.19925,14.63706
+"242","Central plain","dry_season","2014",100.19308,14.63214
+"243","Central plain","dry_season","2014",100.14232,14.6638
+"244","Central plain","dry_season","2014",100.21266,14.67338
+"245","Odisha","wet_season","2014",85.5467,20.23662
+"246","Tamil Nadu","dry_season","2015",79.564,11.063
+"247","Odisha","wet_season","2014",85.553,20.22588
+"248","Odisha","wet_season","2014",85.5519,20.22236
+"249","Odisha","wet_season","2014",85.5556,20.21714
+"250","Tamil Nadu","dry_season","2013",79.5678333333333,11.0643166666667
+"251","Tamil Nadu","dry_season","2013",79.5650666666667,11.0517666666667
+"252","Odisha","wet_season","2014",85.5577,20.22086
+"253","Odisha","wet_season","2014",85.557,20.22528
+"254","Odisha","wet_season","2014",85.5621,20.21357
+"255","Odisha","wet_season","2014",85.5668,20.22492
+"256","Odisha","wet_season","2014",85.5554,20.2176
+"257","Odisha","wet_season","2014",85.5738,20.21377
+"258","Odisha","wet_season","2014",85.5725,20.20868
+"259","Odisha","wet_season","2014",85.5709,20.20207
+"260","Odisha","wet_season","2014",85.5401,20.24066
+"261","Tamil Nadu","wet_season","2014",79.339,11.0385
+"262","Tamil Nadu","wet_season","2014",79.3421,11.0607
+"263","Odisha","wet_season","2014",79.3407,11.1279
+"264","Tamil Nadu","wet_season","2014",79.3333,11.01532
+"265","Tamil Nadu","wet_season","2014",79.3325,11.02284
+"266","Tamil Nadu","wet_season","2014",79.3348,11.02337
+"267","Tamil Nadu","wet_season","2014",79.339,11.03163
+"268","Tamil Nadu","wet_season","2014",79.3329,11.03385
+"269","Tamil Nadu","wet_season","2014",79.35,11.0174
+"270","Tamil Nadu","wet_season","2014",79.352,11.041
+"271","Tamil Nadu","wet_season","2014",79.338,11.0495
+"272","Tamil Nadu","wet_season","2014",79.354,11.098
+"273","Tamil Nadu","wet_season","2014",79.3426,11.01914
+"274","Tamil Nadu","wet_season","2014",79.3397,11.0335
+"275","Odisha","wet_season","2013",85.9430666666667,20.3551666666667
+"276","Odisha","wet_season","2013",85.9475666666667,20.3534833333333
+"277","Odisha","wet_season","2013",85.9463333333333,20.35425
+"278","Odisha","wet_season","2013",85.8976666666667,20.4006666666667
+"279","Odisha","wet_season","2013",85.9042,20.3826
+"280","Odisha","wet_season","2013",85.9018166666667,20.3831333333333
+"281","Odisha","wet_season","2013",85.9015833333333,20.3809
+"282","Odisha","wet_season","2013",85.9073666666667,20.3928
+"283","Odisha","wet_season","2013",85.9455,20.3547166666667
+"284","Odisha","wet_season","2013",85.9445833333333,20.3557333333333
+"285","Odisha","wet_season","2013",85.94715,20.3540166666667
+"286","Odisha","wet_season","2013",85.9434166666667,20.3523
+"287","Odisha","dry_season","2014",85.83,20.12
+"288","Odisha","dry_season","2014",85.83,20.12
+"289","Odisha","dry_season","2014",85.83,20.12
+"290","Odisha","dry_season","2014",85.83,20.12
+"291","Odisha","dry_season","2014",85.83,20.12
+"292","Odisha","dry_season","2014",85.83,20.12
+"293","Odisha","dry_season","2014",85.52,20.27
+"294","Central plain","wet_season","2015",100.11432,14.63623
+"295","Central plain","wet_season","2015",100.11432,14.63623
+"296","Central plain","wet_season","2015",100.11432,14.63623
+"297","Central plain","wet_season","2015",100.11432,14.63623
+"298","Central plain","wet_season","2015",100.11432,14.63623
+"299","Central plain","wet_season","2015",100.11432,14.63623
+"300","Central plain","wet_season","2015",100.11432,14.63623
+"301","Central plain","wet_season","2015",100.11432,14.63623
+"302","Central plain","wet_season","2015",100.11432,14.63623
+"303","Central plain","wet_season","2015",100.11432,14.63623
+"304","Central plain","wet_season","2015",100.11432,14.63623
+"305","Odisha","dry_season","2014",85.52,20.27
+"306","Central plain","wet_season","2015",100.11432,14.63623
+"307","Odisha","dry_season","2014",85.52,20.27
+"308","Odisha","dry_season","2014",85.52,20.27
+"309","Odisha","dry_season","2014",85.52,20.27
+"310","Odisha","dry_season","2014",85.52,20.27
+"311","Odisha","dry_season","2014",85.52,20.27
+"312","Odisha","dry_season","2014",85.84,20.27
+"313","Odisha","dry_season","2014",85.84,20.27
+"314","West Java","wet_season","2014",107,-6.266
+"315","Red rive delta","wet_season","2014",106.23963,20.4761
+"316","Red rive delta","wet_season","2014",106.2331,20.4714
+"317","Red rive delta","wet_season","2014",106.2243,20.484
+"318","Red rive delta","wet_season","2014",106.2257,20.485
+"319","Red rive delta","wet_season","2014",106.2329,20.4812
+"320","Red rive delta","wet_season","2014",106.2355,20.4918
+"321","Red rive delta","wet_season","2014",106.23147,20.47462
+"322","Red rive delta","wet_season","2014",106.23194,20.47703
+"323","Red rive delta","wet_season","2014",106.23097,20.47413
+"324","Red rive delta","wet_season","2014",106.2329,20.4715
+"325","Red rive delta","wet_season","2014",106.2341,20.47
+"326","Red rive delta","wet_season","2014",106.2331,20.5152
+"327","Red rive delta","wet_season","2014",106.232,20.487
+"328","Red rive delta","wet_season","2014",106.3899,20.7906
+"329","Red rive delta","wet_season","2014",106.23138,20.477
+"330","Tamil Nadu","dry_season","2015",79.5622,11.0648
+"331","Tamil Nadu","dry_season","2015",79.5598,11.068
+"332","Tamil Nadu","dry_season","2015",79.563,11.0513
+"333","Tamil Nadu","dry_season","2015",79.564,11.0448
+"334","Tamil Nadu","dry_season","2015",79.3325,11.02284
+"335","Tamil Nadu","dry_season","2015",79.3348,11.02337
+"336","Tamil Nadu","dry_season","2015",79.339,11.03163
+"337","Tamil Nadu","dry_season","2015",79.3319,11.03385
+"338","Tamil Nadu","dry_season","2015",79.35,11.0174
+"339","Odisha","dry_season","2015",85.883,20.4625
+"340","Tamil Nadu","dry_season","2015",79.572,11.0625
+"341","Tamil Nadu","dry_season","2015",79.571,11.0711
+"342","Tamil Nadu","dry_season","2015",79.5623,11.0622
+"343","Tamil Nadu","dry_season","2015",79.5614,11.0625
+"344","Tamil Nadu","dry_season","2015",79.5523,11.0672
+"345","Tamil Nadu","wet_season","2015",79.574,11.023
+"346","Tamil Nadu","wet_season","2015",79.563,11.022
+"347","Odisha","dry_season","2015",85.883,20.4625
+"348","Tamil Nadu","wet_season","2015",79.5461,11.025
+"349","Tamil Nadu","wet_season","2015",79.561,11.026
+"350","Tamil Nadu","wet_season","2015",79.569,11.027
+"351","Tamil Nadu","wet_season","2015",79.568,11.008
+"352","Tamil Nadu","wet_season","2015",79.563,11.006
+"353","Tamil Nadu","wet_season","2015",79.565,11.009
+"354","Tamil Nadu","wet_season","2015",79.562,11.012
+"355","Tamil Nadu","wet_season","2015",79.571,11.004
+"356","Tamil Nadu","wet_season","2015",79.573,10.994
+"357","Tamil Nadu","wet_season","2015",79.578,10.999
+"358","Odisha","dry_season","2015",85.883,20.4625
+"359","Tamil Nadu","wet_season","2015",79.581,10.996
+"360","Odisha","dry_season","2015",85.883,20.4625
+"361","Tamil Nadu","wet_season","2015",79.581,10.99
+"362","Tamil Nadu","wet_season","2015",79.585,10.99
+"363","Tamil Nadu","dry_season","2014",79.5715,11.02131
+"364","Tamil Nadu","dry_season","2014",79.5717,11.01249
+"365","Tamil Nadu","dry_season","2014",79.5717,11.00577
+"366","Tamil Nadu","dry_season","2014",79.5738,10.9916
+"367","Tamil Nadu","dry_season","2014",79.5793,10.9944
+"368","Tamil Nadu","dry_season","2014",79.5753,10.9898
+"369","Odisha","dry_season","2015",85.883,20.4625
+"370","Odisha","dry_season","2015",85.883,20.4625
+"371","Tamil Nadu","dry_season","2014",79.5894,10.98677
+"372","Tamil Nadu","dry_season","2014",79.5793,10.9872
+"373","Tamil Nadu","dry_season","2014",79.5939,10.98525
+"374","Tamil Nadu","dry_season","2014",79.5984,10.98442
+"375","Tamil Nadu","dry_season","2014",79.6027,10.98361
+"376","Tamil Nadu","dry_season","2014",79.5691,11.02107
+"377","Tamil Nadu","dry_season","2014",79.5717,11.02353
+"378","Tamil Nadu","dry_season","2014",79.5664,11.03173
+"379","Tamil Nadu","dry_season","2014",79.342,11.01172
+"380","Odisha","dry_season","2015",85.883,20.4625
+"381","Odisha","dry_season","2015",85.883,20.4625
+"382","Odisha","dry_season","2015",85.883,20.4625
+"383","Odisha","dry_season","2015",85.8327,20.1112
+"384","Odisha","dry_season","2015",85.8327,20.1112
+"385","Odisha","dry_season","2015",85.8327,20.1112
+"386","Odisha","dry_season","2015",85.8327,20.1112
+"387","Odisha","dry_season","2015",85.8327,20.1112
+"388","Odisha","dry_season","2015",85.8327,20.1112
+"389","Odisha","wet_season","2015",85.883,20.4625
+"390","Odisha","wet_season","2015",85.883,20.4625
+"391","Odisha","wet_season","2015",85.8327,20.1112
+"392","Odisha","wet_season","2015",85.883,20.4625
+"393","West Java","wet_season","2014",107.45265,-6.2698
+"394","West Java","wet_season","2014",107.50855,-6.27333333333333
+"395","Odisha","wet_season","2015",85.8327,20.1112
+"396","West Java","wet_season","2014",107.454588888889,-6.23139722222222
+"397","Odisha","wet_season","2015",85.8327,20.1112
+"398","Odisha","wet_season","2015",85.883,20.4625
+"399","West Java","wet_season","2014",107.512997222222,-6.33041388888889
+"400","West Java","wet_season","2014",107.5083,-6.2714
+"401","Odisha","wet_season","2015",85.883,20.4625
+"402","Odisha","wet_season","2015",85.883,20.4625
+"403","Odisha","wet_season","2015",85.883,20.4625
+"404","Odisha","wet_season","2015",85.8327,20.1112
+"405","Odisha","wet_season","2015",85.883,20.4625
+"406","Odisha","wet_season","2015",85.883,20.4625
+"407","Odisha","wet_season","2015",85.883,20.4625
+"408","Odisha","wet_season","2015",85.883,20.4625
+"409","West Java","wet_season","2014",107.454891666667,-6.33218333333333
+"410","West Java","wet_season","2014",107.508633333333,-6.27125
+"411","West Java","wet_season","2014",107.513033333333,-6.26973333333333
+"412","West Java","wet_season","2014",107.505277777778,-6.27271111111111
+"413","West Java","wet_season","2014",107.507188888889,-6.32923611111111
+"414","West Java","wet_season","2014",107.452833333333,-6.27085
+"415","West Java","wet_season","2014",107.51315,-6.2688
+"416","West Java","wet_season","2014",107.506288888889,-6.32749444444445
+"417","West Java","dry_season","2015",107.3079,-6.16128
+"418","West Java","dry_season","2015",107.2722,-6.161804
+"419","West Java","dry_season","2015",107.4517,-6.265667
+"420","West Java","dry_season","2015",107.4551,-6.16
+"421","West Java","dry_season","2015",107.4538,-6.264845
+"422","West Java","dry_season","2015",107.4591,-6.269828
+"423","West Java","dry_season","2015",107.3037,-6.161532
+"424","West Java","dry_season","2015",107.2722,-6.161489
+"425","West Java","dry_season","2015",107.3038,-6.161424
+"426","West Java","dry_season","2015",107.3038,-6.160913
+"427","West Java","dry_season","2015",107.5179,-6.263629
+"428","West Java","dry_season","2015",107.5179,-6.263629
+"429","West Java","dry_season","2015",107.5218,-6.260028
+"430","West Java","dry_season","2015",107.519,-6.26126
+"431","West Java","dry_season","2015",107.2422,-6.161199
+"432","Central plain","dry_season","2015",100.050752,14.774822
+"433","Central plain","dry_season","2015",100.078145,14.872087
+"434","Central plain","dry_season","2015",100.077791,14.87792
+"435","Central plain","dry_season","2015",100.079157,14.885025
+"436","West Java","wet_season","2015",107.27260352,-6.321108
+"437","Central plain","dry_season","2015",100.0578,14.501
+"438","Central plain","dry_season","2015",100.095961,14.834261
+"439","Central plain","dry_season","2015",100.141586,14.59766
+"440","Central plain","dry_season","2015",100.142474,14.601146
+"441","Central plain","dry_season","2015",100.124035,14.645515
+"442","Central plain","dry_season","2015",100.130284,14.641908
+"443","Central plain","dry_season","2015",100.122934,14.644737
+"444","Central plain","dry_season","2015",100.124629,14.641664
+"445","Central plain","dry_season","2015",100.093167,14.400244
+"446","Central plain","dry_season","2015",100.082803,14.396337
+"447","Central plain","dry_season","2015",100.109571,14.422201
